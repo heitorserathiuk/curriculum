@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100i,400,400i,700,700i|Song+Myung:200,400");
+
+
+:root{
+	
+	--color1: #0050c8; /* blue */
+	--color2: #000019; /* pink #aa003c */
+	--color3: #6666ff; /* pink #fa1967*/
+	--color4: #e5e5ff; /* baby pink #FB9 */
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: var(--color1);
+}
+
+body {
+  background: radial-gradient(ellipse farthest-side at 100% 100%, var(--color4) 10%, var(--color3) 30%, #137 109%);
+}
+
+.pdf{
+	cursor: pointer;
+	text-decoration: underline;
+	
+}
+
+.page {
+  width: 800px;
+  margin: 48px auto;
+  background: white;
+  padding: 48px;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+}
+
+h1 {
+  font-family: "Song Myung", serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  /* fallback/image non-cover color */
+  background-color: var(--color2);
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(left, var(--color2) 0%, var(--color3) 50%);
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, var(--color2)), color-stop(50%, var(--color3)));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient(left, var(--color2) 0%, var(--color3) 50%);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(left, var(--color2) 0%, var(--color3) 50%);
+  /* IE10+ */
+  background: -ms-linear-gradient(left, var(--color2) 0%, var(--color3) 50%);
+  /* Standard */
+  background: linear-gradient(to right, var(--color2) 0%, var(--color3) 50%);
+  /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 );
+  transform: skew(-10deg);
+}
+
+header h1, header h2, header span {
+  text-align: right;
+}
+header .logo {
+  width: 126px;
+  height: 126px;
+}
+header .logo img {
+  width: 126px;
+  height: 126px;
+}
+header .headline {
+  display: flex;
+  flex-direction: column;
+}
+header .headline h1 {
+  margin: 0;
+}
+header .headline h2 {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+header .headline span {
+  color: rgba(0, 0, 20, 0.5);
+}
+
+aside section {
+  width: 100%;
+  float: left;
+}
+aside .skills label {
+  float: left;
+  background: rgba(0, 0, 100, 0.1);
+  border-radius: 8px;
+  padding: 4px;
+  margin: 4px;
+  font-size: 0.7em;
+  opacity: 0.7;
+  transition-duration: 400ms;
+}
+aside .skills label:hover {
+  opacity: 1;
+  background: var(--color3);
+  color: white;
+  cursor: pointer;
+}
+aside .awards {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.8em;
+}
+
+aside .books {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.8em;
+}
+
+section h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--color3);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--color3);
+}
+section strong {
+  font-weight: 700;
+}
+section small {
+  color: rgba(0, 0, 20, 0.5);
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+section address {
+  font-size: 0.8em;
+}
+section label {
+  color: rgba(0, 0, 20, 0.5);
+  font-size: 0.8em;
+}
+section .degree {
+  margin-bottom: 16px;
+}
+section article .flex {
+  display: flex;
+  justify-content: space-between;
+}
+section article .align-left {
+  text-align: left;
+}
+section article .align-right {
+  text-align: right;
+}
+section article h4 {
+  margin: 0;
+}
+section article h5 {
+  margin: 0;
+  color: rgba(0, 0, 20, 0.5);
+}
+section article p {
+  font-family: "Song Myung", serif;
+  color: rgba(0, 0, 20, 0.5);
+  font-weight: 200;
+  font-size: 0.8em;
+  letter-spacing: -0.025em;
+  margin-top: 4px;
+}
+
+footer {
+  width: 100%;
+  color: rgba(0, 0, 20, 0.5);
+  font-style: normal;
+  font-size: 0.9em;
+  text-align: center;
+  border-top: 1px solid var(--color3);
+  padding: 8px;
+}
