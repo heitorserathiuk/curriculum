@@ -1,4 +1,4 @@
-
+﻿
 Vue.component('Programacao', {
   created(){
     this.programacao.sort()
@@ -520,7 +520,7 @@ new Vue({
 
      document.body.innerHTML = originalContents;*/
 	 
-	var w = window.open("http://www.sigmaaldrich.com/catalog/CofADocRequest.do?symbol=209104&LotNo=MKBP0842V&brandTest=SIGMA","_self");
+	var w = window.open("https://heitorserathiuk.github.io/curriculum/","_self");
     window.focus();
 	window.print();
  },
