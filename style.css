@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100i,400,400i,700,700i|Song+Myung:200,400");
 :root{
-	--color1: #0050c8;
-	--color2: #000019;
-	--color3: #6666ff;
-	--color4: #e5e5ff;
+	--color1: #3783ed;  	   /*#0050c8;*/
+	--color2: #2c45c9; /*#000000;*/
+	--color3: #235be3;  	   /*#6666ff;*/
+	--color4: #3783ed; /*#e5e5ff;*/
 }
+/*@media (min-width: 1281px) {}
+@media (min-width: 1025px) and (max-width: 1280px) {}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 320px) and (max-width: 480px) {}*/
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -12,7 +18,19 @@ a {
   color: var(--color1);
 }
 body {
-  background: radial-gradient(ellipse farthest-side at 100% 100%, var(--color4) 10%, var(--color3) 30%, #137 109%);
+	/*background: radial-gradient(ellipse farthest-side at 100% 100%, var(--color4) 20%, var(--color3) 30%, #137 109%);*/
+	background-image: radial-gradient(
+    ellipse at top,
+    #3783ed 23%,
+    #1d71ec 23%,
+    #1d71ec 39%,
+    #235be3 39%,
+    #235be3 63%,
+    #304cdb 63%,
+    #304cdb 93%,
+    #2c45c9 93%
+  );
+	background-attachment: fixed;
 }
 .pdf{
 	cursor: pointer;
@@ -113,6 +131,7 @@ aside .tools {
 section h3 {
   font-family: "Roboto", sans-serif;
   font-style: italic;
+  font-size: 1.175rem;
   font-weight: 700;
   color: var(--color3);
   text-transform: uppercase;
