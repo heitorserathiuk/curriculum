@@ -1,32 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100i,400,400i,700,700i|Song+Myung:200,400");
-
-
 :root{
-	
-	--color1: #0050c8; /* blue */
-	--color2: #000019; /* pink #aa003c */
-	--color3: #6666ff; /* pink #fa1967*/
-	--color4: #e5e5ff; /* baby pink #FB9 */
+	--color1: #0050c8;
+	--color2: #000019;
+	--color3: #6666ff;
+	--color4: #e5e5ff;
 }
-
 * {
   font-family: "Roboto", sans-serif;
 }
-
 a {
   color: var(--color1);
 }
-
 body {
   background: radial-gradient(ellipse farthest-side at 100% 100%, var(--color4) 10%, var(--color3) 30%, #137 109%);
 }
-
 .pdf{
 	cursor: pointer;
 	text-decoration: underline;
 	
 }
-
 .page {
   width: 800px;
   margin: 48px auto;
@@ -34,25 +26,21 @@ body {
   padding: 48px;
   border-radius: 4px;
 }
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1em;
 }
-
 h1 {
   font-family: "Song Myung", serif;
   font-size: 3em;
 }
-
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: white;
   padding: 5px 10px;
   text-transform: uppercase;
-  /* fallback/image non-cover color */
   background-color: var(--color2);
   /* Firefox 3.6+ */
   background-image: -moz-linear-gradient(left, var(--color2) 0%, var(--color3) 50%);
@@ -70,7 +58,6 @@ h2 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 );
   transform: skew(-10deg);
 }
-
 header h1, header h2, header span {
   text-align: right;
 }
@@ -117,13 +104,7 @@ aside .skills label:hover {
   color: white;
   cursor: pointer;
 }
-aside .awards {
-  list-style: none;
-  padding-left: 0;
-  font-size: 0.8em;
-}
-
-aside .books {
+aside .tools {
   list-style: none;
   padding-left: 0;
   font-size: 0.8em;
@@ -181,7 +162,6 @@ section article p {
   letter-spacing: -0.025em;
   margin-top: 4px;
 }
-
 footer {
   width: 100%;
   color: rgba(0, 0, 20, 0.5);

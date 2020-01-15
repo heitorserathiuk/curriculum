@@ -5,7 +5,7 @@ Vue.component('Programacao', {
   },
   data () {
     return {
-      programacao: [ 'C#','SQL','Java Script', 'Visual Basic', 'Java', 'Angular', 'Jquery', 'HTML', 'CSS', 'XPath', 'Python' ]
+      programacao: [ 'C#','SQL','Java Script', 'Visual Basic', 'Java', 'Angular', 'JQuery', 'HTML', 'CSS', 'XPath', 'Python', 'ASP.NET', 'C','C++', 'Android' ]
     }
   },
   template: `
@@ -23,7 +23,7 @@ Vue.component('Ferramentas', {
   },
   data () {
     return {
-      ferramentas: ['Selenium', 'Microsoft SQL Server Integration Services','Pacote Office', 'Microsoft SQL Server', 'Google Sheets', 'Microsoft Server Analysis Services', 'Android Studio', 'Astah Community', 'Qlik Sense','Fiddler','Postman', 'GitHub', 'SourceTree']
+      ferramentas: ['Selenium', 'Microsoft SQL Server Integration Services(SSIS)','Pacote Office', 'Microsoft SQL Server', 'Google Sheets', 'Microsoft SQL Server Analysis Services(SSAS)', 'Android Studio', 'Astah Community', 'Qlik Sense','Fiddler','Postman', 'GitHub', 'MySQL', 'Google Data Studio']
     }
   },
   template: `
@@ -41,7 +41,7 @@ Vue.component('Marketing', {
   },
   data () {
     return {
-      marketing: ['Google Analytics', 'Adobe Illustrator','Adobe Photoshop', 'Google Ads', 'SEM Rush', 'Google Search Console', 'Ads Manager', 'Google Editor', 'B2W Ads', 'Yahoo Ads', 'Google Data Studio', 'Screaming Frog', 'RD Station', 'Power Editor', 'Google Merchant', 'Bing Ads', 'Google Tag Manager' ]
+      marketing: ['Google Analytics', 'Adobe Illustrator','Adobe Photoshop', 'Google Ads', 'SEM Rush', 'Google Search Console', 'Ads Manager', 'Google Ads Editor', 'B2W Ads', 'Yahoo Ads', 'Screaming Frog', 'RD Station', 'Power Editor', 'Google Merchant Center', 'Bing Ads', 'Google Tag Manager', 'Hitwise', 'Bornlogic Ads' ]
     }
   },
   template: `
@@ -100,12 +100,89 @@ Vue.component('Livros', {
   template: `
 <div>
       <h3>Livros</h3>
-       <ul class="books" v-for="l in livros">
+       <ul class="tools" v-for="l in livros">
           <li>
             <strong v-html="l.titulo"></strong> 
 		  </li>
 		  <li>
             <small v-html="l.data"></small>
+          </li>
+       </ul>
+</div>
+`
+})
+
+Vue.component('Certificacoes', {
+  data () {
+    return {
+      certificacoes: [
+		{
+          titulo: 'Certificado Google Ads - Publicidade de Pesquisa',
+          data: '2019-2020'
+        },
+		{
+          titulo: 'Certificado Google Analytics Individual Qualification',
+          data: '2013-2014_2017-2018'
+        },
+		{
+          titulo: 'Certificado Google Ads - Shopping',
+          data: '2017-2018'
+        },
+		{
+          titulo: 'Certificado Google Ads - Publicidade Gráfica',
+          data: '2013-2014'
+        },
+      ]
+    }
+  },
+  template: `
+<div>
+      <h3>Certificações</h3>
+       <ul class="tools" v-for="c in certificacoes">
+          <li>
+            <strong v-html="c.titulo"></strong> 
+		  </li>
+		  <li>
+            <small v-html="c.data"></small>
+          </li>
+       </ul>
+</div>
+`
+})
+
+
+Vue.component('Eventos', {
+  data () {
+    return {
+      eventos: [
+        {
+          titulo: 'Participação do Digital Mission São Paulo',
+          data: '2018'
+        },
+        {
+          titulo: 'Participação do 19° Encontro Locaweb',
+          data: '2017'
+        },
+        {
+          titulo: 'Participação do Meeting Digitalks',
+          data: '2017'
+        },
+	    {
+          titulo: 'Robotec Fair 2009',
+          data: '2009'
+        },			
+      ]
+    }
+  },
+  template: `
+<div>
+      <h3>Eventos</h3>
+       <ul class="tools" v-for="e in eventos">
+          <li>
+            <strong v-html="e.titulo"></strong> 
+		  </li>
+		  <li>
+            <small v-html="e.data"></small>
           </li>
        </ul>
 </div>
@@ -120,45 +197,13 @@ Vue.component('Outros', {
           titulo: 'Habilitação tipo B e carro próprio',
           data: '2009-2023'
         },
-		{
-          titulo: 'Certificado Google Ads - Publicidade de Pesquisa',
-          data: '2019-2020'
-        },
-        {
-          titulo: 'Participação do Digital Mission São Paulo',
-          data: '2018'
-        },
-		{
-          titulo: 'Certificado Google Analytics Individual Qualification',
-          data: '2017-2018'
-        },
-		{
-          titulo: 'Certificado Google Ads - Shopping',
-          data: '2017-2018'
-        },
-        {
-          titulo: 'Participação do 19° Encontro Locaweb',
-          data: '2017'
-        },
-        {
-          titulo: 'Participação do Meeting Digitalks',
-          data: '2017'
-        },
-		{
-          titulo: 'Certificado Google Ads - Publicidade Gráfica',
-          data: '2013-2014'
-        },
-        {
-          titulo: 'Kumon',
-          data: '2004'
-        },
       ]
     }
   },
   template: `
 <div>
       <h3>Outros</h3>
-       <ul class="awards" v-for="o in outros">
+       <ul class="tools" v-for="o in outros">
           <li>
             <strong v-html="o.titulo"></strong> 
 		  </li>
@@ -262,7 +307,7 @@ Metodologia Scrum ágil adaptada à realidade da empresa.`
           titulo:'Estagiário de Desenvolvimento Web',
           empresa:'Global Village Telecom - GVT',
           local: 'Curitiba, PR',
-          timeline: 'January 2013 &mdash; May 2013',
+          timeline: 'Abril 2014 &mdash; Dezembro 2014',
           descricao: `Participação de Treinamentos de Telecom; Manutenção de Aplicação Web de Gestão de Projetos da área; Atividades de Programação de Banco de Dados PL/SQL e Linguagens Java Web; Automatizações de relatórios utilizando Excel e VBA; Participação de Treinamentos Plano de Desenvolvimento Individual, Gestão do Tempo e da Rotina.`
         },{
           titulo:'Estagiário de Digital Analytics',
@@ -308,80 +353,11 @@ Vue.component('Cursos', {
     return {
       cursos: [
         {
-          title: 'Staff Engineer, Fullstack',
-          company:'Knotel',
+          title: 'Curso de Search Engine Optimization',
+          company:'Aldeia Coworking',
           location: 'Curitiba, PR',
-          timeline: 'July 2018 &mdash; Present',
-          description: `Revolutionizing the GraphQL implementations that not only push the technology forward through use in the CRE and Arch industry, but as all engineering as a whole. Lead development of several applications, systems architecture, patterns, as well as our design system. Stack is React, Node, Apollo, AWS, Github Actions, running on Kubernetes.`
-        },
-        {
-          title:'Javascript Engineer / Consultant',
-          company:'SmartNode, LLC',
-          location: 'Curitiba, PR',
-          timeline: 'January 2015 &mdash; Present',
-          description: `Full-stack Javascript application development and project management. 
-            Typical stack consists of Node APIs on Angular / React / Vue Frontends.`
-        },
-        {
-          title:'Lead Frontend Engineer',
-          company:'Capsule8, Inc',
-          location: 'Curitiba, PR',
-          timeline: 'June 2017 &mdash; December 2017',
-          description: `Architected Capsule8’s Security dashboard console. Helped hire developers and built both the UI and UX teams within this smart and stealthy startup. Led Junior level developers as well as oversaw contract partnerships.`
-        },
-        {
-          title:'Senior UI Engineer / Consultant',
-          company:'Cake &amp; Arrow <small>(formerly Alexander Interactive)</small>',
-          location: 'Curitiba, PR',
-          timeline: 'October 2013 &mdash; January 2015',
-          description: `Developed proprietary software for a Fortune 50 client utilizing AngularJS with a team under the agile methodology. Similiarly sharing knowledge throughout the company crossing between the development and design teams.`
-        },
-        {
-          title:'UX / UI Development Consultant',
-          company:'Legs Media, Milk Studios, Layerframe',
-          location: 'Curitiba, PR',
-          timeline: 'May 2013 &mdash; December 2013',
-          description: `Lead development and oversaw teams on several high-end digital/web projects including those with Nickelodeon, Spotify, Budweiser, Theory and more.`
-        },        
-        {
-          title:'Mobile Developer: Custom Builds',
-          company:'Celtra',
-          location: 'Curitiba, PR',
-          timeline: 'January 2013 &mdash; May 2013',
-          description: `Created custom mobile advertising campaigns on a prototypical inheritance design pattern built from Celtra’s Ad Creator product and MongoDB/MySQL.
-Clients include McDonalds, Burberry, Jeep, SuperCell, and several more.`
-        },{
-          title:'Creative Technologist',
-          company:'Medialets',
-          location: 'Curitiba, PR',
-          timeline: 'October 2010 &mdash; October 2012',
-          description: `Lead Developer in the Rich Media Mobile Advertising space. Direct communication of best practices with creative, technical, and agency partners. Award Winning Innovation in the mobile space utilizing HTML5 elements, CSS animations, touch events, and js frameworks.`
-        },
-        {
-          title:'Interactive Developer',
-          company:'Warschawski',
-          location: 'Curitiba, PR',
-          timeline: 'August 2009 &mdash; October 2010',
-          description: 'Created interactive solutions for clients in need of online branding. A custom content management system was created in order to give customers control of their content without need to be onboarded into a complex system. Logo creation, wireframing, and branding solutions were also part of this creative role.'
-        },
-        {
-          title:'Front-End Developer',
-          company:'Inside Lacrosse',
-          location: 'Curitiba, PR',
-          timeline: 'December 2008 &mdash; August 2009',
-          description: 'Redeveloped InsideLacrosse.com onto the Drupal6 Platform while creating smaller applications for custom polls, magazine revenue'
-        },
-        {
-          title:'Web Applications Developer',
-          company:'no|inc',
-          location: 'Curitiba, PR',
-          timeline: 'August 2008 &mdash; December 2008',
-        },
-        {
-          title:'Web Applications Developer',
-          company:'CSD Architects',
-          location: 'Curitiba, PR',
-          timeline: 'June 2007 &mdash; August 2008',
+          timeline: '2016',
+          description: ``
         },
       ]
     }
@@ -409,50 +385,8 @@ Clients include McDonalds, Burberry, Jeep, SuperCell, and several more.`
 `
 });
 
-
- 
-    
-/*Vue.component('Education', {
-  data(){
-    return {
-      university:{
-        name: 'Universidade Positivo',
-        date: 'August 2002 &ndash; May 2007',
-        location: 'Curitiba, PR'
-      },
-      degrees:[
-        {
-          type: 'Sistemas de Informação',
-          major: 'Computer Science',
-          minor: 'Mathematics'
-        },
-        {
-          type: 'Engenharia da Computação',
-          major: 'Art',
-          concentration: 'Graphic Design'
-        },
-      ]
-    }
-  },
-  template: `
-    <div>
-        <h3>Education</h3>
-        <strong v-html="university.name"></strong><br>
-        <small v-html="university.date"></small><br>
-        <address v-html="university.location"></address><br>
-        <div class="degree" v-for="degree in degrees">
-          <i>{{degree.type}}</i><br>
-          <label>Major:</label> {{degree.major}} <br>
-          <label v-if="degree.minor">Minor:</label> {{degree.minor}}
-          <label v-if="degree.concentration">Concentration:</label> {{degree.concentration}}
-          <br>
-        </div>
-    </div>
-`
-})*/
-
 /*var example = new Vue({
-   el: '#resume',
+   el: '#curriculum',
   data: {
     name: 'Vue.js'
   },
@@ -470,7 +404,7 @@ Clients include McDonalds, Burberry, Jeep, SuperCell, and several more.`
 })*/
 
 new Vue({
-  el: '#resume',
+  el: '#curriculum',
   methods: {
  download() {
   const doc = new jsPDF();
@@ -500,7 +434,7 @@ new Vue({
 	  	}			
 	});*/
 	
-	/*var canvasElement = document.getElementById("#resume");
+	/*var canvasElement = document.getElementById("#curriculum");
     var MIME_TYPE = "image/png";
     var imgURL = canvasElement.toDataURL(MIME_TYPE);
     var dlLink = document.createElement('a');
@@ -511,7 +445,7 @@ new Vue({
     dlLink.click();
     document.body.removeChild(dlLink);*/
 	
-	 /*var printContents = document.getElementById("resume").innerHTML;
+	 /*var printContents = document.getElementById("curriculum").innerHTML;
      var originalContents = document.body.innerHTML;
 
      document.body.innerHTML = printContents;
