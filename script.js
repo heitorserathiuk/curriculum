@@ -122,7 +122,7 @@ Vue.component('Certificacoes', {
         },
 		{
           titulo: 'Certificado Google Analytics Individual Qualification',
-          data: '2013-2014_2017-2018'
+          data: '2017-2018'
         },
 		{
           titulo: 'Certificado Google Ads - Shopping',
