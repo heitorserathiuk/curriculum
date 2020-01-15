@@ -29,7 +29,7 @@ body {
     #304cdb 93%,
     #2c45c9 93%
   );
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 .pdf{
 	cursor: pointer;
