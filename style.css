@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100i,400,400i,700,700i|Song+Myung:200,400");
 :root{
-	--color1: #3783ed;  	   /*#0050c8;*/
-	--color2: #2c45c9; /*#000000;*/
-	--color3: #235be3;  	   /*#6666ff;*/
-	--color4: #3783ed; /*#e5e5ff;*/
+	--color1: #3783ed;
+	--color2: #2c45c9;
+	--color3: #235be3;
+	--color4: #3783ed;
 }
 /*@media (min-width: 1281px) {}
 @media (min-width: 1025px) and (max-width: 1280px) {}
@@ -18,7 +18,6 @@ a {
   color: var(--color1);
 }
 body {
-	/*background: radial-gradient(ellipse farthest-side at 100% 100%, var(--color4) 20%, var(--color3) 30%, #137 109%);*/
 	background-image: radial-gradient(
     ellipse at top,
     #3783ed 23%,
