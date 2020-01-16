@@ -23,7 +23,7 @@ body {
     #304cdb 93%,
     #2c45c9 93%
   );
-	background-attachment: fixed;
+	background-attachment: scroll;
 	display:block;
 	margin:0px;
 }

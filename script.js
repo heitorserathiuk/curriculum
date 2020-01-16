@@ -224,7 +224,7 @@ Vue.component('Educacao', {
           universidade:'Universidade Positivo',
           local: 'Curitiba, PR',
           timeline: 'Janeiro 2018 &mdash; Junho 2020',
-          descricao: `Aplicativos Móveis, Sistemas de Informação, Orientação a Objetos, Infraestrutura Tecnológica, Novo Ambiente Organizacional, Gestão de Projetos, Sistemas Convergentes, Sistemas Corporativos, Sistemas Embarcados, Sistemas Operacionais, Arquitetura de Referência para os Negócios, Desenvolvimento Web, Business Analytics, Governança de TI, Cultura Startup, Tópicos Especiais em Software, Trabalho de Conclusão de Curso.`
+          descricao: `Aplicativos Móveis, Sistemas de Informação, Orientação a Objetos, Infraestrutura Tecnológica, Novo Ambiente Organizacional, Gestão de Projetos de Software, Sistemas Convergentes, Sistemas Corporativos, Sistemas Embarcados, Gestão de Sistemas Operacionais, Arquitetura de Referência para os Negócios, Desenvolvimento Web, Business Analytics, Governança de TI, Cultura Startup, Tópicos Especiais em Software, Trabalho de Conclusão de Curso.`
         },
         {
           titulo:'Engenharia da Computação',
