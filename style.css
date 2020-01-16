@@ -24,6 +24,8 @@ body {
     #2c45c9 93%
   );
 	background-attachment: fixed;
+	display:block;
+	margin:0px;
 }
 .pdf{
 	cursor: pointer;
