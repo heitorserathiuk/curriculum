@@ -263,7 +263,7 @@ Vue.component('Experiencia', {
     return {
       empregos: [
         {
-          titulo: 'Desenvolvedor de Sistemas I',
+          titulo: 'Desenvolvedor Web Full-Stack Junior C# e Angular',
           empresa:'Editora Positivo',
           local: 'Curitiba, PR',
           timeline: 'Julho 2019 &mdash; Outubro 2019',
@@ -276,7 +276,7 @@ Utilização do DevOps/TFS (CMMI e Agile) para gerenciamento de atividades e pro
 Metodologia Scrum ágil adaptada à realidade da empresa.`
         },
         {
-          titulo:'Estagiário de SEO',
+          titulo:'Estágio como Analista de SEO',
           empresa:'FH Consultoria',
           local: 'Curitiba, PR',
           timeline: 'Março 2018 &mdash; Setembro 2018',
@@ -290,34 +290,34 @@ Metodologia Scrum ágil adaptada à realidade da empresa.`
           descricao: `Estudos de diversos clientes, seus respectivos produtos e concorrentes dos mais variados ramos de atuação; Confecção de Planos de Mídia; Geração e controle de APs e PIs; Escolha de palavras chaves; Escrita de anúncios; Análise de Shopping Basket aplicado a combinação de palavras utilizando SQL; Compra de Mídia Programática como Publya, Fitmedia, Criteo; Solicitação do Mídia Kit e compra de espaços em portais; Tags de Remarketing; Criação e acompanhamento de anúncios no Linkedin, Bing, Yahoo, Google, Facebook, Instagram e outros; Relatórios de controle diário para acompanhamento de mídia e relatórios de resultados; Reuniões com Facebook e outros veículos.`
         },
         {
-          titulo:'Estagiário de Suporte de Business Intelligence',
+          titulo:'Estágio como Desenvolvedor de Business Intelligence',
           empresa:'Agência Chleba',
           local: 'Curitiba, PR',
           timeline: 'Agosto 2016 &mdash; Abril 2017',
           descricao: `Trabalho com o servidor de anúncios da empresa chamado Add Intelligence com clientes como Electrolux, LFG, China in Box, entre outros; Manutenção de cubos de dados utilizando a ferramenta SSAS; Extração de dados via xml de fontes externas usando C# e VB; Automatização de relatórios utilizando Excel e cubos de dados; Manutenção de banco de dados SQL Server de diversos clientes; Validação e extração de dados de ferramentas de anúncios; Atividades de Programação C#, VB e ASP.NET; Manutenção de Relatórios do Tableau; Coleta de dados da API do Google Adwords e API do Bing.`
         },
         {
-          titulo:'Estagiário de Desenvolvimento Web/Testes',
+          titulo:'Estágio como Desenvolvedor Web C#/ Analista de Testes',
           empresa:'Bornlogic',
           local: 'Curitiba, PR',
           timeline: 'Fevereiro 2015 &mdash; Outubro 2015',
           descricao: `Participação de Treinamento de Facebook Marketing; Manutenção de Aplicação Web ASP.NET e gráficos Highcharts ; Criação de Vitrine utilizando ASP.NET e tagueamento utilizando Google Analytics e GTM; Metodologia Scrum; Testes e Investigação de Erros; Leitura de métricas/ KPI’s ; Realização de Treinamento para equipe com foco em Google Analytics.`
         },        
         {
-          titulo:'Estagiário de Desenvolvimento Web',
+          titulo:'Estágio com Desenvolvedor Web Java',
           empresa:'Global Village Telecom - GVT',
           local: 'Curitiba, PR',
           timeline: 'Abril 2014 &mdash; Dezembro 2014',
           descricao: `Participação de Treinamentos de Telecom; Manutenção de Aplicação Web de Gestão de Projetos da área; Atividades de Programação de Banco de Dados PL/SQL e Linguagens Java Web; Automatizações de relatórios utilizando Excel e VBA; Participação de Treinamentos Plano de Desenvolvimento Individual, Gestão do Tempo e da Rotina.`
         },{
-          titulo:'Estagiário de Digital Analytics',
+          titulo:'Estágio como Analista de Business Intelligence',
           empresa:'i-Cherry',
           local: 'Curitiba, PR',
           timeline: 'Julho 2013 &mdash; Abril 2014',
           descricao: `Estudo da área; Testes e Investigação de Erros; Validação de Dados; Confecção de Apresentações Gerenciais para cliente Live TIM; Automatizações de relatórios utilizando Excel e VBA; Coleta de dados utilizando API do Google Analytics ; Leitura de KPI’s no Google Analytics e Adwords; Análise de dados Mobile; Análise de Plano de Mídia; Participação de Treinamentos na área de Marketing Digital.`
         },
         {
-          titulo:'Estagiário em Desenvolvimento de Software',
+          titulo:'Estágio como Desenvolvedor de Software Java',
           empresa:'CINQ Technologies',
           local: 'Curitiba, PR',
           timeline: 'Maio 2012 &mdash; Abril 2013',
