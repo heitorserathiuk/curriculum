@@ -297,7 +297,7 @@ Metodologia Scrum ágil adaptada à realidade da empresa.`
           descricao: `Trabalho com o servidor de anúncios da empresa chamado Add Intelligence com clientes como Electrolux, LFG, China in Box, entre outros; Manutenção de cubos de dados utilizando a ferramenta SSAS; Extração de dados via xml de fontes externas usando C# e VB; Automatização de relatórios utilizando Excel e cubos de dados; Manutenção de banco de dados SQL Server de diversos clientes; Validação e extração de dados de ferramentas de anúncios; Atividades de Programação C#, VB e ASP.NET; Manutenção de Relatórios do Tableau; Coleta de dados da API do Google Adwords e API do Bing.`
         },
         {
-          titulo:'Estágio como Desenvolvedor Web C#/ Analista de Testes',
+          titulo:'Estágio como Desenvolvedor Web C#/ Testes',
           empresa:'Bornlogic',
           local: 'Curitiba, PR',
           timeline: 'Fevereiro 2015 &mdash; Outubro 2015',
