@@ -280,7 +280,7 @@ Metodologia Scrum ágil adaptada à realidade da empresa.`
           empresa:'FH Consultoria',
           local: 'Curitiba, PR',
           timeline: 'Março 2018 &mdash; Setembro 2018',
-          descricao: `Acompanhamento das páginas do ecommerce da Hering, análise de informações como: URL, Breadcrumbs, Canonical Tag, Heading Tags, Meta Tags, Status Http, Sitelinks e outras informações; Utilização do plugin SEO Tools para Excel e das ferramentas SEM Rush e Screaming Frog ; Criação de Titles e Metadescriptions relevantes para cada página; Alterações via planilhas e consultas flexible search ao BD; Alterações em ferramenta CMS da SAP; Criação de mais de 20 tarefas de correções e melhorias para o Ecommerce ; Alterações do Sitemap e do Robots.txt; Estudo da implementação dos Rich snippets, e estudos de SEO; Criação de relatórios utilizando o Google Data Studio, e dados cruzados entre o Google Analytics e dados das vendas do Ecommerce ; Estudos e treinamentos da ferramenta Hybris Marketing Cloud, Hybris Commerce Cloud e Java Web; Testes utilizando Selenium pelo navegador e via código C# ao Ecommerce da Etna, Estudos de Web Scraping utilizando C#.`
+          descricao: `Acompanhamento das páginas do ecommerce da Hering, análise de informações como: URL, Breadcrumbs, Canonical Tag, Heading Tags, Meta Tags, Status Http, Sitelinks e outras informações; Utilização do plugin SEO Tools para Excel, das ferramentas SEM Rush e Screaming Frog; Criação de Titles e Metadescriptions relevantes para cada página; Alterações via planilhas e consultas flexible search ao BD; Alterações em ferramenta CMS da SAP; Criação de mais de 20 tarefas de correções e melhorias para o Ecommerce; Alterações do Sitemap e do Robots.txt; Estudo da implementação dos Rich snippets, e estudos de SEO; Criação de relatórios utilizando o Google Data Studio, e dados cruzados entre o Google Analytics e dados das vendas do Ecommerce; Estudos e treinamentos da ferramenta Hybris Marketing Cloud, Hybris Commerce Cloud e Java Web; Testes utilizando Selenium pelo navegador e via código C# ao Ecommerce da Etna, Estudos de Web Scraping utilizando C#.`
         },
         {
           titulo:'Analista de Mídia Online',
@@ -294,14 +294,14 @@ Metodologia Scrum ágil adaptada à realidade da empresa.`
           empresa:'Agência Chleba',
           local: 'Curitiba, PR',
           timeline: 'Agosto 2016 &mdash; Abril 2017',
-          descricao: `Trabalho com o servidor de anúncios da empresa chamado Add Intelligence com clientes como Electrolux, LFG, China in Box, entre outros; Manutenção de cubos de dados utilizando a ferramenta SSAS; Extração de dados via xml de fontes externas usando C# e VB; Automatização de relatórios utilizando Excel e cubos de dados; Manutenção de banco de dados SQL Server de diversos clientes; Validação e extração de dados de ferramentas de anúncios; Atividades de Programação C#, VB e ASP.NET; Manutenção de Relatórios do Tableau; Coleta de dados da API do Google Adwords e API do Bing.`
+          descricao: `Trabalho com a Plataforma de E-commerce Analytics da empresa chamado Add Intelligence com clientes como Electrolux, LFG, China in Box, entre outros; Criação e manutenção de cubos de dados utilizando as ferramentas SSAS e SSIS; Extração de dados via XML de fontes externas usando C# e VB; Automatização de relatórios utilizando Excel e cubos de dados; Manutenção de banco de dados SQL Server de diversos clientes; Validação e extração de dados de ferramentas de anúncios; Atividades de Programação C#, VB e ASP.NET; Manutenção de Relatórios do Tableau; Coleta de dados da API do Google Adwords e API do Bing.`
         },
         {
           titulo:'Estágio como Desenvolvedor Web C#/ Testes',
           empresa:'Bornlogic',
           local: 'Curitiba, PR',
           timeline: 'Fevereiro 2015 &mdash; Outubro 2015',
-          descricao: `Participação de Treinamento de Facebook Marketing; Manutenção de Aplicação Web ASP.NET e gráficos Highcharts ; Criação de Vitrine utilizando ASP.NET e tagueamento utilizando Google Analytics e GTM; Metodologia Scrum; Testes e Investigação de Erros; Leitura de métricas/ KPI’s ; Realização de Treinamento para equipe com foco em Google Analytics.`
+          descricao: `Trabalho com a Plataforma de Facebook Marketing da empresa chamado Bornlogic Ads; Participação de Treinamento de Facebook Marketing; Manutenção de Aplicação Web ASP.NET e gráficos Highcharts; Criação de Vitrine utilizando ASP.NET e tagueamento utilizando Google Analytics e GTM; Metodologia Scrum; Testes e Investigação de Erros; Leitura de métricas/KPI’s; Realização de Treinamento para equipe com foco em Google Analytics.`
         },        
         {
           titulo:'Estágio com Desenvolvedor Web Java',
@@ -314,14 +314,14 @@ Metodologia Scrum ágil adaptada à realidade da empresa.`
           empresa:'i-Cherry',
           local: 'Curitiba, PR',
           timeline: 'Julho 2013 &mdash; Abril 2014',
-          descricao: `Estudo da área; Testes e Investigação de Erros; Validação de Dados; Confecção de Apresentações Gerenciais para cliente Live TIM; Automatizações de relatórios utilizando Excel e VBA; Coleta de dados utilizando API do Google Analytics ; Leitura de KPI’s no Google Analytics e Adwords; Análise de dados Mobile; Análise de Plano de Mídia; Participação de Treinamentos na área de Marketing Digital.`
+          descricao: `Participação de Treinamentos  e estudo da área de Marketing Digital; Testes e Investigação de Erros; Validação de Dados; Confecção de Apresentações Gerenciais para cliente Live TIM; Automatizações de relatórios utilizando Excel e VBA; Coleta de dados utilizando API do Google Analytics; Leitura de KPI’s no Google Analytics e Adwords; Análise de dados Mobile; Análise de Plano de Mídia.`
         },
         {
           titulo:'Estágio como Desenvolvedor de Software Java',
           empresa:'CINQ Technologies',
           local: 'Curitiba, PR',
           timeline: 'Maio 2012 &mdash; Abril 2013',
-          descricao: 'Outsourcing TI para empresa SITA; Manutenção de Software; Leitura de Documentação em Inglês para Compreensão das Regras de Negócio e Funcionalidades do Software; Testes e Investigação de Erros; Confecção de Checklists; Desenvolvimento de aplicação mobile para iOS; Desenvolvimento de aplicação mobile para Android; Atividades de Programação utiizando linguagem Java e Java Script.'
+          descricao: 'Outsourcing TI para empresa SITA que tem foco na Indústria da Aviação; Manutenção de Software em Java; Leitura de Documentação em Inglês para Compreensão das Regras de Negócio e Funcionalidades do Software; Testes e Investigação de Erros; Confecção de Checklists; Atividades de Programação utiizando linguagem Java, Java Script, e Objective-C; Desenvolvimento de aplicativos em um projeto para GVT; Desenvolvimento de aplicações mobile para iOS e Android.'
         },
       ]
     }
