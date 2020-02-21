@@ -48,7 +48,7 @@ ul.header > li > a {
 	display: inline-block;
     height:100px;
     position:absolute;
-	right:calc(0% + 90px);
+	right:calc(0% + 75px);
     top:20px;
     width:60px;
 }
@@ -80,7 +80,7 @@ ul.footer > li > img, ul.footer > li > a > img {
 	top: 20px;
 }
 .png{
-	right:calc(100% - 90px);	
+	right:calc(100% - 75px);	
 }
 .pdf{
 	right:calc(66% - 30px);
@@ -89,7 +89,7 @@ ul.footer > li > img, ul.footer > li > a > img {
 	right:calc(33% + 30px);
 }
 .mail{
-	right:calc(0% + 90px);
+	right:calc(0% + 75px);
 }
 
 div#curriculum > header,div.grid > aside,div#curriculum > footer{
