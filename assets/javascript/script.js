@@ -223,14 +223,14 @@ Vue.component('Educacao', {
           titulo: 'Sistemas de Informação',
           universidade:'Universidade Positivo',
           local: 'Curitiba, PR',
-          timeline: 'Janeiro 2018 &mdash; Junho 2020',
+          timeline: 'Jan 2018 &mdash; Jun 2020',
           descricao: `Aplicativos Móveis, Sistemas de Informação, Orientação a Objetos, Infraestrutura Tecnológica, Novo Ambiente Organizacional, Gestão de Projetos de Software, Sistemas Convergentes, Sistemas Corporativos, Sistemas Embarcados, Gestão de Sistemas Operacionais, Arquitetura de Referência para os Negócios, Desenvolvimento Web, Business Analytics, Governança de TI, Cultura Startup, Tópicos Especiais em Software, Trabalho de Conclusão de Curso.`
         },
         {
           titulo:'Engenharia da Computação',
           universidade:'Universidade Positivo',
           local: 'Curitiba, PR',
-          timeline: 'Janeiro 2013 &mdash; Dezembro 2017',
+          timeline: 'Jan 2013 &mdash; Dez 2017',
           descricao: `Cálculo Diferencial e Integral, Geometria Anlítica e Algebra Linear, Química, Técnicas de Programação, Desenho Técnico, Lógica de Matemática, Eletricidade, Sistemas Digitais, Técnicas Avançadas de Programação, Sinais e Sistemas, Projetos de Engenharia, Banco de Dados, Arquitetura de Computadores, Processamento Digital de Sinais, Linguagens Formais e Copiladores, Cálculo Numérico, Pesquisa Operacional, Engenharia de Software, Comunicação e Expressão, Fundamentos de Admnistração.`
         },
       ]
@@ -266,7 +266,7 @@ Vue.component('Experiencia', {
           titulo: 'Desenvolvedor Web Full-Stack Junior C# e Angular',
           empresa:'Editora Positivo',
           local: 'Curitiba, PR',
-          timeline: 'Julho 2019 &mdash; Outubro 2019',
+          timeline: 'Jul 2019 &mdash; Out 2019',
           descricao: `Desenvolvimento e correção de erros tanto do back end quanto do front end. Criação de scripts SQL para compreensão do sistema e para correções;
 Back End utilizando SQL Server e WebAPI C#/.NET (Core e 4.7.2)
 Front End utilizando AngularJS, HTML, CSS
@@ -279,48 +279,48 @@ Metodologia Scrum ágil adaptada à realidade da empresa.`
           titulo:'Estágio como Analista de SEO',
           empresa:'FH Consultoria',
           local: 'Curitiba, PR',
-          timeline: 'Março 2018 &mdash; Setembro 2018',
+          timeline: 'Mar 2018 &mdash; Set 2018',
           descricao: `Acompanhamento das páginas do ecommerce da Hering, análise de informações como: URL, Breadcrumbs, Canonical Tag, Heading Tags, Meta Tags, Status Http, Sitelinks e outras informações; Utilização do plugin SEO Tools para Excel, das ferramentas SEM Rush e Screaming Frog; Criação de Titles e Metadescriptions relevantes para cada página; Alterações via planilhas e consultas flexible search ao BD; Alterações em ferramenta CMS da SAP; Criação de mais de 20 tarefas de correções e melhorias para o Ecommerce; Alterações do Sitemap e do Robots.txt; Estudo da implementação dos Rich snippets, e estudos de SEO; Criação de relatórios utilizando o Google Data Studio, e dados cruzados entre o Google Analytics e dados das vendas do Ecommerce; Estudos e treinamentos da ferramenta Hybris Marketing Cloud, Hybris Commerce Cloud e Java Web; Testes utilizando Selenium pelo navegador e via código C# ao Ecommerce da Etna, Estudos de Web Scraping utilizando C#.`
         },
         {
           titulo:'Analista de Mídia Online',
           empresa:'Agência Green Digital',
           local: 'Curitiba, PR',
-          timeline: 'Abril 2017 &mdash; Dezembro 2017',
+          timeline: 'Abr 2017 &mdash; Dez 2017',
           descricao: `Estudos de diversos clientes, seus respectivos produtos e concorrentes dos mais variados ramos de atuação; Confecção de Planos de Mídia; Geração e controle de APs e PIs; Escolha de palavras chaves; Escrita de anúncios; Análise de Shopping Basket aplicado a combinação de palavras utilizando SQL; Compra de Mídia Programática como Publya, Fitmedia, Criteo; Solicitação do Mídia Kit e compra de espaços em portais; Tags de Remarketing; Criação e acompanhamento de anúncios no Linkedin, Bing, Yahoo, Google, Facebook, Instagram e outros; Relatórios de controle diário para acompanhamento de mídia e relatórios de resultados; Reuniões com Facebook e outros veículos.`
         },
         {
           titulo:'Estágio como Desenvolvedor de Business Intelligence',
           empresa:'Agência Chleba',
           local: 'Curitiba, PR',
-          timeline: 'Agosto 2016 &mdash; Abril 2017',
+          timeline: 'Ago 2016 &mdash; Abr 2017',
           descricao: `Trabalho com a Plataforma de E-commerce Analytics da empresa chamado Add Intelligence com clientes como Electrolux, LFG, China in Box, entre outros; Criação e manutenção de cubos de dados utilizando as ferramentas SSAS e SSIS; Extração de dados via XML de fontes externas usando C# e VB; Automatização de relatórios utilizando Excel e cubos de dados; Manutenção de banco de dados SQL Server de diversos clientes; Validação e extração de dados de ferramentas de anúncios; Atividades de Programação C#, VB e ASP.NET; Manutenção de Relatórios do Tableau; Coleta de dados da API do Google Adwords e API do Bing.`
         },
         {
           titulo:'Estágio como Desenvolvedor Web C#/ Testes',
           empresa:'Bornlogic',
           local: 'Curitiba, PR',
-          timeline: 'Fevereiro 2015 &mdash; Outubro 2015',
+          timeline: 'Fev 2015 &mdash; Out 2015',
           descricao: `Trabalho com a Plataforma de Facebook Marketing da empresa chamado Bornlogic Ads; Participação de Treinamento de Facebook Marketing; Manutenção de Aplicação Web ASP.NET e gráficos Highcharts; Criação de Vitrine utilizando ASP.NET e tagueamento utilizando Google Analytics e GTM; Metodologia Scrum; Testes e Investigação de Erros; Leitura de métricas/KPI’s; Realização de Treinamento para equipe com foco em Google Analytics.`
         },        
         {
           titulo:'Estágio com Desenvolvedor Web Java',
           empresa:'Global Village Telecom - GVT',
           local: 'Curitiba, PR',
-          timeline: 'Abril 2014 &mdash; Dezembro 2014',
+          timeline: 'Abr 2014 &mdash; Dez 2014',
           descricao: `Participação de Treinamentos de Telecom; Manutenção de Aplicação Web de Gestão de Projetos da área; Atividades de Programação de Banco de Dados PL/SQL e Linguagens Java Web; Automatizações de relatórios utilizando Excel e VBA; Participação de Treinamentos Plano de Desenvolvimento Individual, Gestão do Tempo e da Rotina.`
         },{
           titulo:'Estágio como Analista de Business Intelligence',
           empresa:'i-Cherry',
           local: 'Curitiba, PR',
-          timeline: 'Julho 2013 &mdash; Abril 2014',
+          timeline: 'Jul 2013 &mdash; Abr 2014',
           descricao: `Participação de Treinamentos  e estudo da área de Marketing Digital; Testes e Investigação de Erros; Validação de Dados; Confecção de Apresentações Gerenciais para cliente Live TIM; Automatizações de relatórios utilizando Excel e VBA; Coleta de dados utilizando API do Google Analytics; Leitura de KPI’s no Google Analytics e Adwords; Análise de dados Mobile; Análise de Plano de Mídia.`
         },
         {
           titulo:'Estágio como Desenvolvedor de Software Java',
           empresa:'CINQ Technologies',
           local: 'Curitiba, PR',
-          timeline: 'Maio 2012 &mdash; Abril 2013',
+          timeline: 'Mai 2012 &mdash; Abr 2013',
           descricao: 'Outsourcing TI para empresa SITA que tem foco na Indústria da Aviação; Manutenção de Software em Java; Leitura de Documentação em Inglês para Compreensão das Regras de Negócio e Funcionalidades do Software; Testes e Investigação de Erros; Confecção de Checklists; Atividades de Programação utiizando linguagem Java, Java Script, e Objective-C; Desenvolvimento de aplicativos em um projeto para GVT; Desenvolvimento de aplicações mobile para iOS e Android.'
         },
       ]
