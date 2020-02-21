@@ -5,7 +5,7 @@ Vue.component('Programacao', {
   },
   data () {
     return {
-      programacao: [ 'C#','SQL','Java Script', 'Visual Basic', 'Java', 'Angular', 'JQuery', 'HTML', 'CSS', 'XPath', 'Python', 'ASP.NET', 'C','C++', 'Android' ]
+      programacao: [ 'C#','SQL','Java Script', 'Visual Basic', 'Java', 'Angular', 'JQuery', 'HTML', 'CSS', 'XPath', 'Python', 'ASP.NET', 'C','C++', 'Android', 'Sass', 'TypeScript' ]
     }
   },
   template: `
@@ -41,7 +41,7 @@ Vue.component('Marketing', {
   },
   data () {
     return {
-      marketing: ['Google Analytics', 'Adobe Illustrator','Adobe Photoshop', 'Google Ads', 'SEM Rush', 'Google Search Console', 'Ads Manager', 'Google Ads Editor', 'B2W Ads', 'Yahoo Ads', 'Screaming Frog', 'RD Station', 'Power Editor', 'Google Merchant Center', 'Bing Ads', 'Google Tag Manager', 'Hitwise', 'Bornlogic Ads' ]
+      marketing: ['Google Analytics', 'Adobe Illustrator','Adobe Photoshop', 'Adobe XD', 'Axure RP','Google Ads', 'SEM Rush', 'Google Search Console', 'Ads Manager', 'Google Ads Editor', 'B2W Ads', 'Yahoo Ads', 'Screaming Frog', 'RD Station', 'Power Editor', 'Google Merchant Center', 'Bing Ads', 'Google Tag Manager', 'Hitwise', 'Bornlogic Ads' ]
     }
   },
   template: `
