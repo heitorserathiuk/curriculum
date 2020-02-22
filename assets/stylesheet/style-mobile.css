@@ -34,7 +34,7 @@ ul.header > li > a {
 	color: white;
     font-size:20px;
     font-weight: bold;
-    margin-top:-10px;
+    margin-top:-8px;
     position:absolute;
 }
 .activity{   
@@ -55,6 +55,9 @@ ul.header > li > a {
 .photo{
 	float:right;
 	color:transparent;
+	width:60px;
+	height:60px;
+	border-radius:50%;
 }
 
 ul.footer {
@@ -70,6 +73,7 @@ ul.footer {
 	opacity: 1.0;
 	position:fixed;
 	bottom:0px;
+	flex-shrink: 0;
 }
 ul.footer > li { 
 	display: inline; 
@@ -83,10 +87,10 @@ ul.footer > li > img, ul.footer > li > a > img {
 	right:calc(100% - 75px);	
 }
 .pdf{
-	right:calc(66% - 30px);
+	right:calc(66% - 25px);
 }
 .mobile{
-	right:calc(33% + 30px);
+	right:calc(33% + 25px);
 }
 .mail{
 	right:calc(0% + 75px);
