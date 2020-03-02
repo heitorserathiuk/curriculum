@@ -13,8 +13,44 @@
 	<image:title>Currículo Heitor Serathiuk - Paperless</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icon.png</image:loc>
-	<image:title>Currículo Heitor Serathiuk - Icon</image:title>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-57x57.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-57x57</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-60x60.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-60x60</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-72x72.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-72x72</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-76x76.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-76x76</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-114x114.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-114x114</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-120x120.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-120x120</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-144x144.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-144x144</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-152x152.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-152x152</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/apple-icon-180x180.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - apple-icon-180x180</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/android-icon-192x192.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - android-icon-192x192</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/favicon-32x32.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - favicon-32x32</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/favicon-96x96.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - favicon-96x96</image:title>
+	</image:image>
+	<image:loc>https://heitorserathiuk.github.io/curriculum/assets/image/icons/favicon-16x16.png</image:loc>
+	<image:title>Currículo Heitor Serathiuk - favicon-16x16</image:title>
 	</image:image>
 	<lastmod>2020-02-24T03:41:28+00:00</lastmod>
 	<priority>1.00</priority>
@@ -29,8 +65,4 @@
 	<lastmod>2020-02-24T03:41:28+00:00</lastmod>
 	<priority>0.50</priority>
 </url>
-
-
-
-
 </urlset>
